@@ -1,5 +1,8 @@
 [build]
 builder = "nixpacks"
+[nixpacks]
+# Use Node.js 22 (LTS)
+nodejs_version = "22"
 
 [deploy]
 startCommand = "npm start"
